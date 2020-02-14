@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_shift"
+        android:text="click the following to get"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/armstrong"
+        android:layout_below="@+id/btn_shift"
+        android:layout_centerHorizontal="true"
+        android:text="Armstrong Number"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabonacii"
+        android:layout_below="@+id/armstrong"
+        android:layout_centerHorizontal="true"
+        android:text="Fabonacii Series"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/factorial"
+        android:layout_below="@+id/fabonacii"
+        android:layout_centerHorizontal="true"
+        android:text="Factorial"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/palindrome"
+        android:layout_below="@+id/factorial"
+        android:layout_centerHorizontal="true"
+        android:text="Palindrome"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prime"
+        android:layout_below="@+id/palindrome"
+        android:layout_centerHorizontal="true"
+        android:text="Prime Number"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/revstring"
+        android:layout_below="@+id/prime"
+        android:layout_centerHorizontal="true"
+        android:text="Reverse String"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/string_palindrome"
+        android:layout_below="@+id/revstring"
+        android:layout_centerHorizontal="true"
+        android:text="String Palindrome"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_quit"
+        android:layout_below="@id/string_palindrome"
+        android:text="Quit"
+        android:layout_marginTop="30sp"
+        />
+
+</RelativeLayout>
